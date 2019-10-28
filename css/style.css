@@ -1,0 +1,129 @@
+
+/* Global styles */
+body { 
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    color: #f38e42;
+}
+h1{
+    font-weight: 700;
+}
+
+p{
+    color: #888;
+}
+section, footer{
+    padding: 100px 0;
+}
+.button-primary{
+    background-color: #f38e42;
+    color: #fff;
+}
+
+.button-secondary{
+    background-color: rgba(0,0,0,.3);
+    color: #fff;
+}
+/* Navigation */
+
+.navbar{
+    background-color: #444;
+    /* position: absolute; */
+    /* width: 100%; */
+}
+
+.join-us{
+    background-image: url(../img/form-background.jpg);
+    background-size: cover;
+}
+
+.join-us form {
+    background-color: rgba(0,0,0,.3);
+}
+.join-us form header{
+    padding: 25px;
+    margin: 0;
+    background-color: rgba(0,0,0,.35);
+}
+
+.join-us form header h2, 
+.join-us form header .fas{
+    color: #fff;
+}
+.join-us form header .fas{
+    font-size: 3.5em;
+}
+
+.join-us form fieldset input,
+.join-us form fieldset textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.join-us form fieldset{
+    padding: 20px;
+}
+
+.join-us form fieldset button{
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 5px;
+    background-color: #f38e42;
+    border: 0;
+    color: #fff;
+}
+
+/* .join-us form fieldset p{
+    color: #fff;
+} */
+
+.join-us form fieldset p  {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.content-holder,
+.content-holder p{
+    color: #fff;
+    text-align: center;
+}
+
+.content-holder{
+    padding-top: 136px;
+}
+
+.content-holder p{
+    padding: 20px 30px;
+}
+
+.content-holder a {
+padding: 15px 30px;
+margin: 20px 10px;
+}
+
+.content-holder a i {
+    margin-left: 5px;
+}
+
+
+
+/* Inspiration */
+
+.inspiration iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    background-color: #f8f8f8;
+    padding-bottom: 100px
+
+}
+.contact-item{
+    padding: 0 50px;
+}
